@@ -44,7 +44,5 @@ PRODUCT_PACKAGES += \
     libstainkiller \
     libuniplugin \
     libwvhidl \
-    libaptXHD_encoder \
-    libaptX_encoder \
     android.hardware.drm@1.4-service.widevine \
     wcnss_filter
