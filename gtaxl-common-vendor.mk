@@ -25,17 +25,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libGLES_mali \
-    libExynosOMX_Core.proprietary \
-    libExynosOMX_Resourcemanager.proprietary \
-    libOMX.Exynos.AVC.Decoder.proprietary \
-    libOMX.Exynos.AVC.Encoder.proprietary \
-    libOMX.Exynos.HEVC.Decoder.proprietary \
-    libOMX.Exynos.HEVC.Encoder.proprietary \
-    libOMX.Exynos.MPEG4.Decoder.proprietary \
-    libOMX.Exynos.MPEG4.Encoder.proprietary \
-    libOMX.Exynos.VP8.Decoder.proprietary \
-    libOMX.Exynos.VP8.Encoder.proprietary \
-    libOMX.Exynos.WMV.Decoder.proprietary \
     camera.vendor.universal7870 \
     sensors.universal7870 \
     libexynoscamera \
