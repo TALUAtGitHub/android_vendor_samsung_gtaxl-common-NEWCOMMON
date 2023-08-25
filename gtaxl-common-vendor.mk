@@ -17,7 +17,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxl-common/proprietary/vendor/firmware/utf30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/utf30.bin \
     vendor/samsung/gtaxl-common/proprietary/vendor/firmware/utfbd30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/utfbd30.bin \
     vendor/samsung/gtaxl-common/proprietary/vendor/firmware/utfbd32.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/utfbd32.bin \
-    vendor/samsung/gtaxl-common/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
+    vendor/samsung/gtaxl-common/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
     vendor/samsung/gtaxl-common/proprietary/vendor/firmware/fimc_is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_lib.bin \
     vendor/samsung/gtaxl-common/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
     vendor/samsung/gtaxl-common/proprietary/vendor/firmware/setfile_4h5yc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_4h5yc.bin \
@@ -32,6 +32,7 @@ PRODUCT_PACKAGES += \
     libGLES_mali \
     sensors.universal7870 \
     libstainkiller \
-    libwvhidl \
-    android.hardware.drm@1.4-service.widevine \
+    libwvaidl \
+    manifest_android.hardware.drm-service.widevine \
+    android.hardware.drm-service.widevine \
     wcnss_filter
