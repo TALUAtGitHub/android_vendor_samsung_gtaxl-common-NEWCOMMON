@@ -32,6 +32,16 @@ PRODUCT_PACKAGES += \
     libGLES_mali \
     sensors.universal7870 \
     libstainkiller \
-    manifest_android.hardware.drm-service.widevine-v17 \
+    manifest_android.hardware.drm-service.widevine-v17.xml \
     android.hardware.drm-service.widevine-v17 \
     wcnss_filter
+
+PRODUCT_PACKAGES += \
+    libGLES_mali_vulkan.universal7870_symlink32 \
+    libGLES_mali_libOpenCL_symlink32 \
+    libGLES_mali_libOpenCL.so_symlink32 \
+    libGLES_mali_libOpenCL.so.1_symlink32 \
+    libGLES_mali_vulkan.universal7870_symlink64 \
+    libGLES_mali_libOpenCL_symlink64 \
+    libGLES_mali_libOpenCL.so_symlink64 \
+    libGLES_mali_libOpenCL.so.1_symlink64
